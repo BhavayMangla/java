@@ -97,25 +97,6 @@ public class Main {
         if (!isNoRemainder) {
             System.out.println("Got some remainder");
         }
-    double first = 20.00d;
-		double second = 80.00d;
-		double total = (first + second) * 100.00d;
-		System.out.println("My values total is " + total);
-		double remainder = total % 40.00d;
-		System.out.println("My remainder value is " + remainder);
-		boolean zeroremainder = (remainder == 0) ? true : false;
-		System.out.println("zeroremainder =" + zeroremainder);
-		if (!zeroremainder) {
-			System.out.println("Recieved a remainder");
-		}
     
-
-
-
-
-
-
-
-
     }
 }
